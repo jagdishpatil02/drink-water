@@ -27,3 +27,10 @@ body {
   background-color: #4caf50;
   color: #fff;
 }
+
+.image-wrapper {
+  background-image: url(./assets/banner.PNG);
+  width: 350px;
+  background-size: cover;
+  height: 350px;
+}
