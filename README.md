@@ -1,6 +1,6 @@
 # Drink Water(Jal lijiye)
 
-Drink Water(Jal lijiye) is a chrome extenstion that will remind you to drink water after every 20 minutes.
+Drink Water(Jal lijiye) is a chrome extension that will remind you to drink water after every 20 minutes.
 
 ![Demo Photo](./banner.jpg)
 
