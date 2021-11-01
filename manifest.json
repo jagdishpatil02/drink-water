@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Drink Water (Jal lijiye)",
-  "description": "Drink Water (Jal lijiye) is chrome extention that will remind you drink water after every 20 mins.",
+  "description": "Drink Water (Jal lijiye) is chrome extension that will remind you drink water after every 20 mins.",
   "version": "1.0",
   "permissions": ["alarms"],
   "background": {
