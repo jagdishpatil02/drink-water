@@ -34,3 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // }
 
 // commented code is to be used on second version to On/Off Audio
+
+chrome.alarms.onAlarm.addListener(function (alarm) {
+  var myAudio = new Audio("./assets/jal-lijiye.mp3");
+  myAudio.play();
+});
