@@ -1,8 +1,8 @@
 var alarmClock = {
   onHandler: function (e) {
     chrome.alarms.create("myAlarm", {
-      delayInMinutes: 0.2,
-      periodInMinutes: 0.2,
+      delayInMinutes: 20,
+      periodInMinutes: 20,
     });
   },
 
@@ -22,6 +22,7 @@ onload = () => {
   const urlParams = new URLSearchParams(queryString);
   let audio = new Audio(urlParams.get("src"));
   audio.volume = urlParams.get("volume");
+  console.log(JSON.parse(audio));
   audio.play();
   setTimeout(() => {
     close();
